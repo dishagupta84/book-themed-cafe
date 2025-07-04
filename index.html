@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #header {
+        background-color: #8f5306e8;
+        color: #ffffff;
+        font-size: 32px;
+    }
+
+    #header nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50px;
+        text-align: center;
+    }
+
+    #header nav a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    #header nav a:hover {
+        color: #ADD8E6;
+        text-decoration: underline;
+    }
+
+    .mainheading {
+        text-align: center;
+        font-size: 36px;
+        color: #3e2723;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about-section {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .about-content {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .about-content h2 {
+        font-size: 36px;
+        color: #3e2723;
+        margin-bottom: 10px;
+    }
+
+    .about-content p {
+        font-size: 20px;
+        color: #4e342e;
+        line-height: 1.6;
+        text-align: justify;
+    }
+    
+</style>
+</head>
+
+<body>
+    <h1 class="mainheading">Chapters & Coffee</h1>
+    <header id="header">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a>
+            <a href="#">Gallery</a>
+        </nav>
+    </header>
+
+    <!--image-->
+    <img src="img\cafecc.jpg" alt="Chapter & Coffee" class="banner-image">
+
+    <!--about us-->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+                Chapters & Coffee is a cozy café crafted for book lovers and coffee dreamers.
+                Blending the warmth of a neighborhood café with the charm of a quiet library, it's your place to
+                read, relax, write, or simply enjoy a story with every sip.
+                <b>Come write your next chapter with us.</b>
+            </p>
+        </div>
+    </section>
