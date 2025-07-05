@@ -59,3 +59,31 @@
         line-height: 1.6;
         text-align: justify;
     }
+
+    footer {
+        background-color: #3e2723;
+        color: "fffffff";
+        padding : 40px 20px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    footer h2{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    footer p{
+        font-size:16px;
+        margin: 5px 0px;
+    }
+
+    footer ul{
+        list-style-type: none;
+        margin: 10px 0px 20px;
+        font-size: 16px
+    }
+
+    footer ul li{
+        margin: 5px 0px;
+    }
